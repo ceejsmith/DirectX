@@ -76,12 +76,12 @@
     <None Include="MiniCube.fx">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
-    <None Include="d3dcompiler_46.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-    <None Include="d3dcsx_46.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
+    <None Include="lib\SharpDX.D3DCompiler.dll" />
+    <None Include="lib\SharpDX.Direct3D11.dll" />
+    <None Include="lib\SharpDX.dll" />
+    <None Include="lib\SharpDX.DXGI.dll" />
+    <None Include="lib\SharpDX.Toolkit.dll" />
+    <None Include="lib\SharpDX.Toolkit.Graphics.dll" />
   </ItemGroup>
   <PropertyGroup>
     <MinimumVisualStudioVersion Condition="'$(MinimumVisualStudioVersion)' == ''">11</MinimumVisualStudioVersion>
